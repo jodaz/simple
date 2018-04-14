@@ -96,3 +96,12 @@ footer small {
         padding: 20px;
     }
 }
+.hero {
+    background-image: url("/backgrounds/2-birds-flying-near-body-of-water-during-orange-sunset.jpeg");
+    background-position: 0% 0%;
+    background-color: #555;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 670px;
+}
