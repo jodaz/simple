@@ -22,6 +22,18 @@ ul {
     width: 80%;
     margin-right: -10px;
 }
+::selection {
+    color: #fff;
+    background: #58cbd3;
+}
+::-moz-selection {
+    color: #fff;
+    background: #58cbd3;
+}
+::-webkit-selection {
+    color: #fff;
+    background: #58cbd3;
+}
 
 /* LINKS */
 a:hover {
