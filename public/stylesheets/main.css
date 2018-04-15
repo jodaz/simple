@@ -72,6 +72,9 @@ a:hover {
 .icon {
     color: #58cbd3;
 }
+.social .icon {
+    font-size: 24px;
+}
 
 /* HEADER */
 header {
@@ -170,6 +173,9 @@ footer small {
 }
 .hero-five {
     background-image: url("/backgrounds/ocean-during-sunset.jpeg");
+}
+.hero-six {
+    background-image: url("/backgrounds/clouds-dawn-dusk-forest.jpeg");
 }
 
 /* QUERIES */
