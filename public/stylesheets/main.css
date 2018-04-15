@@ -7,6 +7,18 @@ body {
     color: #7f7f7f;
     background-color: #fff;
 }
+::selection {
+    color: #fff;
+    background: #58cbd3;
+}
+::-moz-selection {
+    color: #fff;
+    background: #58cbd3;
+}
+::-webkit-selection {
+    color: #fff;
+    background: #58cbd3;
+}
 h1, h2, h3, h4, h5, h6 {
     color: #000;
     font-weight: 300;
@@ -22,17 +34,13 @@ ul {
     width: 80%;
     margin-right: -10px;
 }
-::selection {
-    color: #fff;
-    background: #58cbd3;
+.staff h4 {
+    color: #7f7f7f;
+    font-size: 18px !important;
 }
-::-moz-selection {
-    color: #fff;
-    background: #58cbd3;
-}
-::-webkit-selection {
-    color: #fff;
-    background: #58cbd3;
+.staff h3 {
+    font-size: 24px;
+    margin-bottom: 0;
 }
 
 /* LINKS */
@@ -73,11 +81,22 @@ a:hover {
     width: 5%;
     display: block;
     margin-top: -5px;
-    color: #58cbd3;
 }
 .feature h3 {
     margin-bottom: 20px;
     font-size: 24px;
+}
+.social li {
+    display: inline;
+}
+.icon {
+    color: #58cbd3;
+}
+.social .icon {
+    font-size: 24px;
+}
+.staff {
+    margin-bottom: 2rem;
 }
 
 /* HEADER */
@@ -172,6 +191,18 @@ footer small {
 .hero-three {
     background-image: url("/backgrounds/ships-on-body-of-water-during-cloudy-daytime.jpeg")
 }
+.hero-four {
+    background-image: url("/backgrounds/aurora-borealis-lofoten-norway-night.jpg");
+}
+.hero-five {
+    background-image: url("/backgrounds/ocean-during-sunset.jpeg");
+}
+.hero-six {
+    background-image: url("/backgrounds/clouds-dawn-dusk-forest.jpeg");
+}
+.staff img {
+    margin-bottom: 1rem;
+}
 
 /* QUERIES */
 @media (min-width: 992px) {
@@ -182,6 +213,9 @@ footer small {
         position: fixed;
         padding-top: 4em;
         height: 450px;
+    }
+    .staff {
+        margin-bottom: 0;
     }
 }
 @media (min-width: 768px) {
@@ -200,4 +234,16 @@ footer small {
     .icon {
         font-size: 70px;
     }
+}
+
+.btn-primary {
+    background: #02c2cf;
+    border-color: #02c2cf;
+    border-radius: 0;
+    font-size: 1.125rem;
+    transition: 0.5s;
+}
+.btn-primary:hover {
+    background: #58cbd3;
+    border-color: #58cbd3;
 }
