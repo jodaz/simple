@@ -159,6 +159,9 @@ footer small {
 
 /* QUERIES */
 @media (min-width: 992px) {
+    .wrapper {
+        margin-bottom: 450px;
+    }
     footer {
         position: fixed;
         padding-top: 4em;
