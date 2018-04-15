@@ -28,6 +28,10 @@ a:hover {
     text-decoration: none;
     color: #58cbd3;
 }
+.hero a {
+    color: white;
+    border-bottom: 2px solid hsla(0, 0%, 100%, 0.2);
+}
 
 /* WRAPPER */
 .wrapper {
