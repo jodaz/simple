@@ -22,6 +22,14 @@ ul {
     width: 80%;
     margin-right: -10px;
 }
+.staff h4 {
+    color: #7f7f7f;
+    font-size: 18px !important;
+}
+.staff h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
 
 /* LINKS */
 a:hover {
@@ -74,6 +82,9 @@ a:hover {
 }
 .social .icon {
     font-size: 24px;
+}
+.staff {
+    margin-bottom: 2rem;
 }
 
 /* HEADER */
@@ -177,6 +188,9 @@ footer small {
 .hero-six {
     background-image: url("/backgrounds/clouds-dawn-dusk-forest.jpeg");
 }
+.staff img {
+    margin-bottom: 1rem;
+}
 
 /* QUERIES */
 @media (min-width: 992px) {
@@ -184,6 +198,9 @@ footer small {
         position: fixed;
         padding-top: 4em;
         height: 450px;
+    }
+    .staff {
+        margin-bottom: 0;
     }
 }
 @media (min-width: 768px) {
@@ -202,4 +219,16 @@ footer small {
     .icon {
         font-size: 70px;
     }
+}
+
+.btn-primary {
+    background: #02c2cf;
+    border-color: #02c2cf;
+    border-radius: 0;
+    font-size: 1.125rem;
+    transition: 0.5s;
+}
+.btn-primary:hover {
+    background: #58cbd3;
+    border-color: #58cbd3;
 }
