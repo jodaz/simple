@@ -164,6 +164,15 @@ footer small {
     padding-top: 3em;
 }
 
+/* FORMS */
+.form-control {
+    font-size: 18px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    font-weight: 300;
+    padding: 0.400rem 1rem;
+}
+
 /* BACKGROUNDS AND IMAGES */
 .img-responsive {
     max-width: 100%;
@@ -220,6 +229,10 @@ footer small {
 }
 .staff img {
     margin-bottom: 1rem;
+}
+#map {
+    width: 100%;
+    height: 700px;
 }
 
 /* QUERIES */
