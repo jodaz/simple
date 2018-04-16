@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 ul {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 .feature-text {
     float: right;
@@ -41,6 +42,10 @@ ul {
 .staff h3 {
     font-size: 24px;
     margin-bottom: 0;
+}
+.check-list .icon {
+    float: left;
+    margin-right: 20px;
 }
 
 /* LINKS */
@@ -92,11 +97,15 @@ a:hover {
 .icon {
     color: #58cbd3;
 }
-.social .icon {
+.social .icon,
+.check-list .icon {
     font-size: 24px;
 }
 .staff {
     margin-bottom: 2rem;
+}
+.check-list {
+    margin-bottom: 1.5rem;
 }
 
 /* HEADER */
@@ -200,6 +209,15 @@ footer small {
 .hero-six {
     background-image: url("/backgrounds/clouds-dawn-dusk-forest.jpeg");
 }
+.hero-seven {
+    background-image: url("/backgrounds/ocean-during-golden-hour.jpeg");
+}
+.hero-eight {
+    background-image: url("/backgrounds/body-of-water-photography.jpeg");
+}
+.hero-nine {
+    background-image: url("/backgrounds/sunset-photo.jpeg");
+}
 .staff img {
     margin-bottom: 1rem;
 }
@@ -228,6 +246,12 @@ footer small {
     }
     .description {
         padding: 5em 0;
+    }
+    .check-list {
+        margin-bottom: 0;
+    }
+    .hero h1 {
+        font-size: 70px;
     }
 }
 @media (min-width: 1200px) {
