@@ -220,31 +220,31 @@ footer small {
     z-index: 11;
 }
 .hero-one {
-    background-image: url("/backgrounds/2-birds-flying-near-body-of-water-during-orange-sunset.jpeg");
+    background-image: url("../images/backgrounds/2-birds-flying-near-body-of-water-during-orange-sunset.jpeg");
 }
 .hero-two {
-    background-image: url("/backgrounds/body-of-water-wave.jpeg");
+    background-image: url("../images/backgrounds/body-of-water-wave.jpeg");
 }
 .hero-three {
-    background-image: url("/backgrounds/ships-on-body-of-water-during-cloudy-daytime.jpeg")
+    background-image: url("../images/backgrounds/ships-on-body-of-water-during-cloudy-daytime.jpeg")
 }
 .hero-four {
-    background-image: url("/backgrounds/aurora-borealis-lofoten-norway-night.jpg");
+    background-image: url("../images/backgrounds/aurora-borealis-lofoten-norway-night.jpg");
 }
 .hero-five {
-    background-image: url("/backgrounds/ocean-during-sunset.jpeg");
+    background-image: url("../images/backgrounds/ocean-during-sunset.jpeg");
 }
 .hero-six {
-    background-image: url("/backgrounds/clouds-dawn-dusk-forest.jpeg");
+    background-image: url("../images/backgrounds/clouds-dawn-dusk-forest.jpeg");
 }
 .hero-seven {
-    background-image: url("/backgrounds/ocean-during-golden-hour.jpeg");
+    background-image: url("../images/backgrounds/ocean-during-golden-hour.jpeg");
 }
 .hero-eight {
-    background-image: url("/backgrounds/body-of-water-photography.jpeg");
+    background-image: url("../images/backgrounds/body-of-water-photography.jpeg");
 }
 .hero-nine {
-    background-image: url("/backgrounds/sunset-photo.jpeg");
+    background-image: url("../images/backgrounds/sunset-photo.jpeg");
 }
 .staff img {
     margin-bottom: 1rem;

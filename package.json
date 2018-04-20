@@ -19,6 +19,16 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.8",
-    "express": "^4.16.3"
+    "ejs-lint": "^0.3.0",
+    "express": "^4.16.3",
+    "js-yaml": "^3.11.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-ejs": "^3.1.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
