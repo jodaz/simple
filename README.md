@@ -2,7 +2,7 @@
 
 Bbootstrap template for a site running on Express.
 
-![screenshot](./public/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/jesuodz/simple/gh-pages/images/screenshot.PNG)
 
 This is a bootstrap template for a site running on top of Express as the backend. The design is cloned from this [demo](http://www.free-css.com/free-css-templates/page218/simple).
 
