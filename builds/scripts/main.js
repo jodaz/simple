@@ -1,0 +1,1 @@
+$(document).ready(function(){$("[href]").each(function(){this.href==window.location.href&&$(this).addClass("active")})});

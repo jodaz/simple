@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <% include ../partials/head %>
+    <head>
+    
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Simple</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/brands.js" integrity="sha384-6jhVhr5a+Z1nLr9h+fd7ocMEo847wnGFelCHddaOOACUeZNoQwFXTxh4ysXVam8u" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/main.css">
+
+</head>
     <body>
         <main class="wrapper">
 
-            <% include ../partials/nav %>
+            <header>
+    <div class="container">
+        <nav>
+
+            <ul class="nav justify-content-center">
+                
+                
+                <li class="nav-item"><a class="navlink" href="index.html"><span>Home</span></a></li>
+                
+                <li class="nav-item"><a class="navlink" href="about.html"><span>About</span></a></li>
+                
+                <li class="nav-item"><a class="navlink" href="services.html"><span>Services</span></a></li>
+                
+                <li class="nav-item"><a class="navlink" href="contact.html"><span>Contact</span></a></li>
+                
+            </ul>
+
+        </nav>
+    </div>
+</header>
 
             <section class="hero hero-one">
                 <div class="container h-100">
@@ -134,9 +164,64 @@
             </section>
         </main>
         
-        <% include ../partials/footer %>
+        <footer>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <h3>About Us</h3>
+                <p>Lorem ipsum,dolor sit amet consectetur adipisicing elit. Culpa consectetur omnis perferendis totam nam accusamus sunt assumenda.</p>
+            </div>
+
+            <div class="col-md-4 col-md-push-1">
+                <h3>Quick Links</h3>
+                <ul>
+                    
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="about.html">About</a></li>
+                    
+                    <li><a href="services.html">Services</a></li>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+                <br>
+            </div>
+
+            <div class="col-md-4 col-md-push-1">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i><span>Google Plus</span></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-12 text-center">
+                <p class="copyright">
+                    <small>
+                        Made with care by <a href="http://jesuodz.github.io">Jesus Ordosgoitty</a>.
+                    </small>
+                    <small>
+                        Design from the guys <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a>
+                        Demo images: <a href="http://pexels.com">Pexels</a>
+                    </small>
+                </p> 
+            </div>
+
+        </div>
+
+    </div>
+</footer>
     </body>
 
-    <% include ../partials/scripts %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts/main.js"></script>
     
 </html>
