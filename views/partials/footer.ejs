@@ -5,17 +5,15 @@
 
             <div class="col-md-4">
                 <h3>About Us</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa consectetur omnis perferendis totam nam accusamus sunt assumenda.</p>
+                <p><%= data.description %></p>
             </div>
 
             <div class="col-md-4 col-md-push-1">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="about">About Us</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="services">Services</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <% for (var i in data["nav"]) { %>
+                    <li><a href="<%= Object.values(data['nav'][i])%>"><%= Object.keys(data['nav'][i]) %></a></li>
+                    <% } %>
                 </ul>
                 <br>
             </div>

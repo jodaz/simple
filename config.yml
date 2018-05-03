@@ -1,0 +1,10 @@
+title: Simple
+description: Lorem ipsum,dolor sit amet consectetur adipisicing elit. Culpa consectetur omnis perferendis totam nam accusamus sunt assumenda.
+url:
+root: /
+
+nav:
+  - Home: /
+  - About: about
+  - Services: services
+  - Contact: contact
