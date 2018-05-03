@@ -13,9 +13,6 @@ try {
 site.use(express.static('public'));
 site.set('view engine', 'ejs');
 
-var d = yaml_data;
-console.log(yaml_data.description);
-
 site.get(yaml_data.root, function( req, res ) {
     res.render('pages/index', {data: yaml_data});
 });
